@@ -14,7 +14,7 @@ import com.example.model.User;
 import com.example.repository.UserRepository;
 
 @Service
-public class PasswordRestService {
+public class PasswordResetService {
     @Autowired
     private UserRepository userRepository;
     @Autowired
