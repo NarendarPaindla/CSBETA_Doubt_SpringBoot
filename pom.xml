@@ -44,25 +44,23 @@
       		<groupId>org.springframework.boot</groupId>
       		<artifactId>spring-boot-starter-data-mongodb</artifactId>
     	</dependency>
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
     <version>1.18.34</version>
     <scope>provided</scope>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-mail</artifactId>
-    
-</dependency>
-
-<dependency>
+ <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-crypto</artifactId>
     </dependency>
-
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+ 
+</dependency>
 		<!-- Enable the below to connect to MySQL -->
 		<!-- <dependency>
 	  		<groupId>org.springframework.boot</groupId>
